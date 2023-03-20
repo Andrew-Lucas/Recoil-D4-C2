@@ -23,7 +23,7 @@ function DisplayTodoList({ customCategory }: ICustomCategory) {
     <>
       <ul>
         {CurrentToDos.map((todos) => (
-          <li key={todos.id}>
+          <li style={{marginBottom: "15px"}} key={todos.id}>
             <FontAwesomeIcon
               style={{ marginRight: '10px', cursor: 'pointer' }}
               color="grey"
